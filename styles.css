@@ -39,7 +39,7 @@ h1 {
     font-weight: 700;
 }
 
-h2 {
+h2,h4 {
     font-size: 2rem;
     color: #FFFFFF;
     margin-bottom: 20px;
