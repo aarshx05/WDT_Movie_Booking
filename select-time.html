@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Showtime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Booking System</h1>
+    </header>
+
+    <main>
+        <h2>Select Showtime for <span id="movieTitle"></span></h2>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Select Time:</label>
+        <select id="time" required>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="01:00 PM">01:00 PM</option>
+            <option value="07:00 PM">07:00 PM</option>
+        </select>
+
+        <button onclick="proceedToSeats()">Next: Select Seats</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
